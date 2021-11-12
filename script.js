@@ -1,4 +1,3 @@
-console.log('hello!');
 
 const spec = {
   $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
@@ -23,4 +22,10 @@ const spec = {
   },
 };
 
+// The first opption the id for the div -> #vis
+// the second option is for the spec
 vegaEmbed('#vis', spec);
+
+
+// For the Second Spec
+vegaEmbed('#vis2', 'bigFilterSpec.json');
